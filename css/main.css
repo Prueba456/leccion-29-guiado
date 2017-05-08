@@ -27,6 +27,7 @@ text-align: center;
 }
 [class*="col-"]{
   min-height: 384px;
+  padding: 12px;
   border: 12px solid white;
   float: left;
   background-color: grey;

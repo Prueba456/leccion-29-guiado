@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.links{
+  width: 100%;
+text-align: center;
+}
+.links a{
+  margin: 30px;
+  display: inline-block;
+  height: 30px;
+  width: 60px;
+  border: 1px solid blue;
+}
+.container{
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.row:before, .row:after{
+  content: " ";
+  display: table;
+}
+.row:after{
+  clear:both;
+}
+[class*="col-"]{
+  min-height: 384px;
+  border: 12px solid white;
+  float: left;
+  background-color: grey;
+}
+.right{
+  float: right;
+}
+.light{
+  background-color: #dcdddf;
+}
+.transparente{
+  background-color: transparent;
+}
+.dobleRow{
+  height: 768px;
+}
+.col-1{
+  width: 8.333333%;
+}
+.col-2{
+  width: 16.666667%;
+}
+.col-3{
+  width: 25%;
+}
+.col-4{
+  width: 33.333333%;
+}
+.col-5{
+  width: 41.666667%;
+}
+.col-6{
+  width: 50%;
+}
+.col-7{
+  width: 58.333333%;
+}
+.col-8{
+  width: 66.6666667%;
+}
+.col-9{
+  width: 75%;
+}
+.col-10{
+  width: 83.333333%;
+}
+.col-11{
+  width: 91.6666667%;
+}
+.col-12{
+  width: 100%;
+}
